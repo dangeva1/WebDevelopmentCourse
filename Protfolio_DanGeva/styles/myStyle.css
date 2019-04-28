@@ -1,0 +1,173 @@
+body {
+    direction: rtl;
+    }
+
+#container {
+    width: 960px;
+    height: 540px;
+    margin: 0 auto;
+    background-image: url('../images/rsz_back2.jpg');
+    background-size: 100%;
+    position: relative;
+}
+
+nav {
+    width: 960px;
+    height: 50px;
+    background-color: #2f2f33;
+}
+
+nav ul li{
+    display:inline-block;
+    float:right;
+    
+    /*display:block;
+width:120px;*/
+}
+
+nav ul li a
+{
+display: block;
+background-color: #2f2f33;
+color: white;
+width: 120px;
+height: 40px;
+padding-top: 10px;
+text-decoration: none;
+text-align: center;
+}
+
+nav ul li a:hover
+{
+background-color: orange;
+}
+nav ul li a:active
+{
+background-color: cornflowerblue;
+}
+
+.navCurrent{
+    background-color:blue;
+}
+
+nav ul li ul
+{
+display: none;
+position: absolute;
+}
+
+nav ul li:hover > ul
+{
+display:block;
+width:120px;
+}
+
+/*השם שלי בדף הבית*/
+
+#logo {
+    width: 960px;
+    position: absolute;
+    top: 2%;
+    right: 60%;
+    font-size: 70px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+/*הכותרות בדפים*/
+
+h2 {        
+    position: absolute;
+    top: 1.5%;
+    right: 58%;
+    font-size: 36px;
+    color: white;
+}
+
+/*הטקסט בדף הבית*/
+
+.text {        
+    text-align: center;
+    position: absolute;
+    left: 63%;
+    top: 42%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: lightgray;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+    -webkit-transition: background 5s ease;
+    -moz-transition: background 5s ease;
+    -ms-transition: background 5s ease;
+    -o-transition: background 5s ease;
+    transition: background 5s ease;
+}
+
+    .text:hover {
+        background-color: black;
+        -webkit-transition: background 5s ease;
+        -moz-transition: background 5s ease;
+        -ms-transition: background 5s ease;
+        -o-transition: background 5s ease;
+        transition: background 5s ease;
+    }
+
+#text2 {
+font-weight: bold;
+font-size: 28px;
+}
+
+/*תוצר תקשורת חזותית*/
+
+#myImageA {
+    width: 300px;
+    height: 200px;
+    padding: 30px 600px 20px 50px;
+    }
+
+.myVideo {
+    padding: 0px 600px 10px 50px;
+}
+
+.text2 {
+    background-color: black;
+    line-height: 175%;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    top: 75px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;    
+}
+
+/*תוצר גרפיקה ממוחשבת*/
+
+#myImageB {
+    width: 300px;
+    height: 420px;
+    padding: 30px 600px 20px 50px;
+    }
+
+#myAudioA {
+    position: absolute;
+    top: 510px;
+}
+
+/*תוצר גרפיקה ממוחשבת*/
+
+#myImageC {
+    width: 350px;
+    height: 240px;
+    padding: 120px 560px 20px 50px;
+}
